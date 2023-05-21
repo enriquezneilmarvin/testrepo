@@ -22,7 +22,7 @@ pipeline {
     stage('Push') {
       steps {
         // sh 'docker push neilthegreat07/jenkins-docker-hub:nginx-devops-v-$BUILD_NUMBER'
-        sh "echo 'this is push phase"
+        sh "echo 'this is push phase'"
       }
     }
   }
